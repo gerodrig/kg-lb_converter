@@ -1,6 +1,6 @@
 
 const KG_LB = 2.20462
-const LB_KG = 0.453592
+const LB_KG = 0.453592 
 
 
 // function kgConverter (weight) {

@@ -1,0 +1,32 @@
+{
+  "name": "kg-lb_converter",
+  "version": "0.1.0",
+  "description": "module to convert kilograms to pounds",
+  "main": "dist/src/kg-lb.js",
+  "scripts": {
+    "build": "babel src/kg-lb.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gerodrig/kg-lb_converter.git"
+  },
+  "keywords": [
+    "kg-lb",
+    "converter",
+    "platzi",
+    "practice"
+  ],
+  "author": "Gerardo Rodriguez <garc@outlook.com> (https://github.com/gerodrig)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gerodrig/kg-lb_converter/issues"
+  },
+  "homepage": "https://github.com/gerodrig/kg-lb_converter#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
