@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>KG-LB converter</title>
+</head>
+<body>
+  <h1 class="h1">Kilograms to Pounds conversion</h1> 
+  <p class="p1">Enter the weight (mass) in kilograms and press the <i>Convert</i> button:</p>
+  <form name="calcform" autocomplete="off">
+    <table class="calc">
+      <tbody>
+        <tr>
+          <td>
+            <label for="converter" class="converter">Kilograms:</label>
+          </td>
+          <td>
+            <input type="number" placeholder="Weight in kg" name="KG-LB" class="kg">
+          </td>
+          <td class="measure">kg</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td colspan="2">
+            <button type="button" id="convert-btn" class="btn-kg">Convert to Kg</button>
+            <button type="button" id="reset-btn" class="btn-rst">Reset</button>
+            <button type="button" id="swap-btn" class="btn-swap">Swap</button>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="x" class="converted">Pounds:</label>
+          </td>
+          <td>
+              <input type="number" readonly tabindex="5" name="result" value="" id="kg-converter" class="result">
+          </td>
+          <td class="measure2">lb</td>
+        </tr>
+      </tbody>
+
+
+
+    </table>
+
+
+
+
+  </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
